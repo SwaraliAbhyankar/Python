@@ -1,0 +1,5 @@
+v = int(input("Enter final velocity "))
+u = int(input("Enter initial velocity "))
+a = int(input("Enter acceleration "))
+d = (v**2 - u**2) / (2 * a)
+print('Displacement is ',d,'units')
